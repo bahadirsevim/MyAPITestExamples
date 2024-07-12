@@ -8,7 +8,6 @@ import static io.restassured.RestAssured.given;
 public class D01_WritingGetResponseBody {
     @Test
     public void get01(){
-        // First code
         String url = "https://restful-booker.herokuapp.com/booking/10";
 
         Response response = given().when().get(url);
