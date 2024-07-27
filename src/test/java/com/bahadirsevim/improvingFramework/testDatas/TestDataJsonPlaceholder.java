@@ -7,6 +7,7 @@ import java.util.Map;
 
 public class TestDataJsonPlaceholder {
     public static int successResponseCode = 200;
+    public static String contentType = "application/json; charset=utf-8";
 
     public static JSONObject getResponseBody22(){
         JSONObject expectedData = new JSONObject();
